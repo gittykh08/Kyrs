@@ -1,0 +1,50 @@
+трав. 28, 2022 3:56:43 ПП main.MenuManaging mainMenuText
+INFO: Print main menu
+трав. 28, 2022 3:56:54 ПП command.RegulateCommands certainty
+INFO: user choose print all device
+трав. 28, 2022 3:56:54 ПП main.MenuManaging mainMenuText
+INFO: Print main menu
+трав. 28, 2022 4:05:07 ПП main.MenuManaging deviceMenuText
+INFO: Print device menu
+трав. 28, 2022 5:47:17 ПП command.RegulateCommands certainty
+INFO: user choose 
+Name='freezer', power=250, state=false device
+трав. 28, 2022 5:47:22 ПП command.RegulateCommands certainty
+INFO: user choose 2 regime
+трав. 28, 2022 5:47:22 ПП command.RegulateCommands certainty
+INFO: 
+Name='toaster', power=800, state=false now is working in 2 regime
+трав. 28, 2022 5:47:22 ПП main.MenuManaging mainMenuText
+INFO: Print main menu
+трав. 28, 2022 5:47:25 ПП command.RegulateCommands certainty
+INFO: user choose print all device
+трав. 28, 2022 5:47:25 ПП main.MenuManaging mainMenuText
+INFO: Print main menu
+трав. 28, 2022 5:47:28 ПП command.RegulateCommands certainty
+INFO: user choose sort and print all device
+трав. 28, 2022 5:47:28 ПП main.MenuManaging mainMenuText
+INFO: Print main menu
+трав. 28, 2022 5:47:35 ПП main.MenuManaging deviceMenuText
+INFO: Print device menu
+трав. 28, 2022 5:47:40 ПП command.RegulateCommands certainty
+INFO: user choose 2 command
+трав. 28, 2022 5:47:40 ПП command.RegulateCommands certainty
+INFO: 
+Name='tv', power=100, state=true is turn ON
+трав. 28, 2022 5:47:41 ПП command.RegulateCommands certainty
+INFO: user choose 1 command
+трав. 28, 2022 5:47:44 ПП command.RegulateCommands certainty
+INFO: user choose 5 command
+трав. 28, 2022 5:47:44 ПП command.RegulateCommands certainty
+INFO: 
+Name='pc', power=500, state=true is turn ON
+трав. 28, 2022 5:47:46 ПП command.RegulateCommands certainty
+INFO: user choose 2 command
+трав. 28, 2022 5:47:46 ПП main.MenuManaging mainMenuText
+INFO: Print main menu
+трав. 28, 2022 5:47:50 ПП command.RegulateCommands certainty
+INFO: user choose print turned on devices
+трав. 28, 2022 5:47:50 ПП main.MenuManaging mainMenuText
+INFO: Print main menu
+трав. 28, 2022 5:47:54 ПП main.MenuManaging menuManaging
+WARNING: Incorrect command

@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class RegimeElectronicDevice
+class ElectronicDevice
+class ElectronicDeviceOnTimer
+
+
+ElectronicDeviceOnTimer <|-- RegimeElectronicDevice
+RegimeElectronicDevice <|-- ElectronicDevice
+
+class ElectronicDevice {
+  protected String name;
+  protected int power;
+  protected boolean state;
+}
+
+class RegimeElectronicDevice {
+  protected String name;
+  protected int power;
+  protected boolean state;
+  Regimes regime;
+}
+
+class ElectronicDeviceOnTimer {
+  protected String name;
+  protected int power;
+  protected boolean state;
+  Regimes regime;
+  double workingTime
+}
+
+enum Regimes {
+    ECO(1),
+    REGULAR(2),
+    MAX(3);
+}
+
+@enduml
